@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&family=Open+Sans:wght@400;700&display=swap');
+
+:root {
+    --primary-color: rgb(255, 255, 255);
+    --primary-color-darker: rgba(0, 150, 184, 0.669);
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+    margin: 0;
+}
+
+body {
+    background: var(--primary-color);
+    font-family: 'Coming soon', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0; 
+}
+
+.container {
+    background: var(--primary-color-darker);
+    border-radius: 20px;
+    margin: 50px auto;
+    max-width: 640px;
+    padding: 20px;
+}
+
+.calculadora {
+    width: 450px;
+}
+
+.display {
+    font-size: 2em;
+    width: 100%;
+    text-align: right;
+}
+
+.btn {
+    width: 100%;
+    height: 50px;
+    font-size: 1em;
+    border: none;
+    background: red;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-eq {
+    background: black;
+    color: red;
+}
+
+.btn:hover {
+    background: black;
+    color: red;
+}
+
+.btn-eq:hover {
+    background: red;
+    color: black;
+}
